@@ -8,45 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+    --background: 220 13% 9%;
+    --foreground: 0 0% 95%;
 
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
+    --card: 220 13% 9%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 220 13% 9%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 263 70% 50%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 200 100% 50%;
+    --primary-foreground: 220 13% 9%;
 
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 220 9% 65%;
 
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 220 13% 15%;
+    --accent-foreground: 0 0% 95%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 95%;
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 263 70% 50%;
+    --border: 220 13% 15%;
+    --input: 220 13% 15%;
+    --ring: 200 100% 50%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    /* ML-focused design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(263 70% 50%), hsl(220 70% 50%));
-    --gradient-secondary: linear-gradient(135deg, hsl(220 70% 50%), hsl(280 70% 50%));
-    --gradient-accent: linear-gradient(135deg, hsl(280 70% 50%), hsl(263 70% 50%));
-    --neural-glow: 0 0 20px hsl(263 70% 50% / 0.3);
-    --data-blue: 220 70% 50%;
-    --data-purple: 280 70% 50%;
-    --success-green: 142 71% 45%;
-    --warning-orange: 25 95% 53%;
+    /* Travel-focused design tokens */
+    --gradient-travel: linear-gradient(135deg, hsl(200 100% 50%), hsl(280 100% 50%));
+    --gradient-ocean: linear-gradient(135deg, hsl(200 100% 50%), hsl(220 100% 40%));
+    --gradient-sunset: linear-gradient(135deg, hsl(35 100% 50%), hsl(15 100% 50%));
+    --gradient-forest: linear-gradient(135deg, hsl(120 60% 40%), hsl(140 70% 30%));
+    --travel-glow: 0 0 30px hsl(200 100% 50% / 0.3);
+    --ocean-blue: 200 100% 50%;
+    --sunset-orange: 35 100% 50%;
+    --forest-green: 140 70% 40%;
+    --mountain-purple: 280 100% 50%;
+    --sand-yellow: 45 100% 60%;
 
     --sidebar-background: 0 0% 98%;
 
